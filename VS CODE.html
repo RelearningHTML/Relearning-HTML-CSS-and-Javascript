@@ -15,6 +15,17 @@
             h3{
                 color:brown /* Sets the color of all h3 headings to BROWN. */
             }
+
+            #ordered-list{
+                background-color:lightgray /* For specifying the ordered list, first add the #, then the ID name.
+                Afterwards, do everything the same. */
+            }
+
+            .class-example{
+                background-color:rgb(161, 222, 242) /* For specifying a class, first add the ., then the class name.
+                Afterwards, do everything the same. Also, when choosing colors, 
+                you can either use a predefined color name or an RGB value. */
+            }
         </style>
     </head>
     <body>
@@ -22,7 +33,7 @@
 
         <h1>Relearning Webpages</h1>
 
-        <h2>
+        <h2 id="ordered-list"> <!-- To specify certain tags, use the id="" to add an ID to use in CSS-->
             <ol>
                 <li>This is an ordered list</li>
                 <li>Using the <li> tag.</li>
@@ -43,6 +54,19 @@
         <h2>
             <!-- The strong and em tags make the text bold and italicized. -->
             <p> <strong>This is a paragraph</strong> <em>inside</em> a heading.</p>
+        </h2>
+
+        <h2 class="class-example">
+            <p>
+                If you are reading this... get a <strong>JOB. GO TOUCH GRASS.</strong>
+            </p>
+        </h2>
+        <!-- The class="" is used to group many elements into a singular class, allowing for eaiser CSS styling. -->
+        <h2 class="class-example">
+            <p>
+                You still need to stop being on your computer so much. 
+                Go outside, get some fresh air, and enjoy the world around you. You will feel better, I promise.
+            </p>
         </h2>
     </body>
 </html>
