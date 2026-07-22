@@ -1,2 +1,1 @@
-# Relearning-HTML-CSS-and-Javascript
-relearn all these things
+This will be used to help me relearn the website stuff :)
